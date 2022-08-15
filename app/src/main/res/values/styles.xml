@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="pizza_name" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/pizza_yellow</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="pizza_info" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/pizza_grey</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

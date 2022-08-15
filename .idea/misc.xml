@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable-v24/ic_baseline_search_24.xml" value="0.137" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.137" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable/button_home.xml" value="0.2265" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable/ic_account.xml" value="0.2265" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.137" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable/ic_popular.xml" value="0.2265" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable/im_login_register_bg.xml" value="0.2265" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable/img_chicken_mushroom_pizza_background.xml" value="0.2265" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable/img_filter_background.xml" value="0.2265" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable/img_promotion_pizza_background.xml" value="0.2265" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable/img_promotion_pizza_foreground.xml" value="0.2265" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/drawable/search_view_bg.xml" value="0.137" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/layout/activity_account.xml" value="0.4" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/layout/activity_cart.xml" value="0.264" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/layout/activity_filter.xml" value="0.1265625" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/layout/activity_login.xml" value="0.1265625" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/layout/activity_order_detail.xml" value="0.264" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/layout/activity_register.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/layout/cart_item_list.xml" value="0.2" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/layout/menu_list.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/layout/promotion_list.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/menu/item_menu.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/thura/AndroidStudioProjects/PizzaApp3/app/src/main/res/mipmap-anydpi-v26/img_promotion_pizza.xml" value="0.2265" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

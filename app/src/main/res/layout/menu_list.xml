@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/pizzaMenuCard"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="28dp"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/pizza_menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_pizza_name"
+            style="@style/pizza_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Chicken Mushrooms"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_pizza_ingredient"
+            style="@style/pizza_info"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients: Chicken, Mushroom, Olive, Tomato"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_pizza_name" />
+
+        <ImageView
+            android:id="@+id/img_chicken_mushroom_pizza"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/chicken_mushroom_pizza"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@id/tv_pizza_crusts"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_pizza_ingredient" />
+
+        <TextView
+            android:id="@+id/tv_pizza_crusts"
+            style="@style/pizza_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            app:layout_constraintBottom_toTopOf="@id/tv_pizza_price"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_chicken_mushroom_pizza"
+            app:layout_constraintTop_toBottomOf="@id/tv_pizza_ingredient"
+            app:layout_constraintVertical_chainStyle="spread" />
+
+        <TextView
+            android:id="@+id/tv_pizza_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$8.50"
+            style="@style/pizza_info"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_pizza_crusts"
+            app:layout_constraintStart_toStartOf="@+id/tv_pizza_crusts"
+            app:layout_constraintTop_toBottomOf="@id/tv_pizza_crusts" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
